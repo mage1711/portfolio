@@ -24,7 +24,7 @@ const Technologies = [
 export default function AboutMe(){
 return(
     <div>
-    <div className="mt-14 border-b-2 container  border-black border-opacity-40"><h1 className=" mb-2 text-center text-3xl">ABOUT ME</h1>
+    <div className="mt-4 lg:mt-14 border-b-2 container  border-black border-opacity-40"><h1 className=" mb-2 text-center text-3xl">ABOUT ME</h1>
    </div>
    <div className=' flex flex-col space-y-6 lg:space-y-0 lg:flex-row my-8'>
    <section className='lg:w-6/12'>

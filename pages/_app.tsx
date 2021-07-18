@@ -5,7 +5,7 @@ import '../styles/global.css'
 function App({ Component, pageProps }: AppProps) {
   return(
     <div>
-    {/* <NavBar/> */}
+
     <Component {...pageProps} />
     </div>
   )

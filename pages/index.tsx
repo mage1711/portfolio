@@ -31,7 +31,7 @@ export default function Home() {
   <h3 className='font-bebas font-bold text-2xl text-left pl-8'>HELLO I AM</h3>
   <h1 className='text-8xl font-bebas '>ZIAD IBRAHIM</h1>
   <p className='font-medium text-lg pt-4'>A Software Engineer and Full-Stack Web Developer </p>
-  <div className="flex flex-col space-y-3 lg:space-y-0 mt-10 text-center lg:flex-row lg:space-x-16 lg:mt-20 ">
+  <div className="flex flex-col space-y-4 lg:space-y-0 mt-6 text-center lg:flex-row lg:space-x-16 lg:mt-20 ">
 
  <div className="hover:opacity-50">
     <a href='https://github.com/mage1711'><GitHub className="w-6 h-6 inline-block mr-1 mb-1"/> GitHub</a>
@@ -52,7 +52,7 @@ export default function Home() {
   </div>
 <AboutMe/>
  <div>
-  <div className="mt-14 border-b-2 container  border-black border-opacity-40"><h1 className=" mb-2 text-center text-3xl">PROJECTS</h1>
+  <div className="mt-3 border-b-2 container  border-black border-opacity-40"><h1 className=" mb-2 text-center text-3xl">PROJECTS</h1>
  </div>
  <div className='p-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5'>
  {Projects.map((project) => (
