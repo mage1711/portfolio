@@ -15,7 +15,7 @@ import {Project} from '../types'
 
 const Projects:Project[] = [
   { title: 'Flashcards', description: 'A flashcards website that gives users the ability to create flashcards and share them with each other', media:'flashcards',technologies:['Django','PostgreSQL','Nginx','Docker'],source:'https://github.com/mage1711/flashCards-django' ,demo:'http://206.189.58.188:1337/flashcards/',documentation:'https://github.com/mage1711/flashCards-django/blob/master/README.md' },
-  { title: 'Notus', description: 'A note and media sharing app for students to share tips and comment on each other\'s notes', media:'notus',technologies:['React','PostgreSQL','Nginx','Docker','Reducx','TypeScript','Nextjs'],source:'https://github.com/mage1711/Notus-server' ,demo:'http://206.189.58.188:1337/flashcards/' },
+  { title: 'Notus', description: 'A note and media sharing app for students to share tips and comment on each other\'s notes', media:'notus',technologies:['React','PostgreSQL','Nginx','Docker','Reducx','TypeScript','Nextjs'],source:'https://github.com/mage1711/Notus-server' ,demo:'https://notus-client.vercel.app/' },
   { title: 'SPE club site', description: 'A university club website developed for the SPE BUE club branch', media:'SPE',technologies:['Nodejs','React','Firebase'],demo:'https://spe-bue.web.app/' },
   { title: 'Chatapp', description: 'A real time chat app using socket and flask', media:'chatapp',technologies:['Flask','SQLlite','Nginx','Docker'],source:'https://github.com/mage1711/flask-chatapp' ,demo:'http://143.198.126.177/' },
 
