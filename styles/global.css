@@ -1,27 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
-}
 
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
 
-a:hover {
-  text-decoration: underline;
-}
+@layer components {
+.text{
 
-img {
-  max-width: 100%;
-  display: block;
+}
+.text.variable{
+ @apply text-blue-400
+}
+.text.json{
+ @apply text-yellow-500
+}
 }
