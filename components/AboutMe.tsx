@@ -6,12 +6,12 @@ import Reactsvg from '../public/icons/react.svg'
 import Nodejs from '../public/icons/nodejs.svg'
 import Docker from '../public/icons/docker.svg'
 import DigitalOcean from '../public/icons/digitalocean.svg'
-import TypeScript from '../public/icons/typeScripticon.svg'
+
 import NextJs from '../public/icons/nextjs.svg'
 
 const Technologies = [
     { name: 'JavaScript', component: JavaScript  },
-    { name: 'TypeScript', component: TypeScript},
+  
     { name: 'Python', component: Python  },
     { name: 'GoLang', component: GoLang },
     { name: 'React', component: Reactsvg  },
