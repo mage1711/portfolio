@@ -1,5 +1,4 @@
-import GitHub from '../public/icons/github-original.svg'
-import LinkedIn from '../public/icons/linkedin-original.svg'
+
 import JavaScript from '../public/icons/javascript.svg'
 import Python from '../public/icons/python.svg'
 import GoLang from '../public/icons/Go-Logo_Black.svg'
@@ -7,7 +6,7 @@ import Reactsvg from '../public/icons/react.svg'
 import Nodejs from '../public/icons/nodejs.svg'
 import Docker from '../public/icons/docker.svg'
 import DigitalOcean from '../public/icons/digitalocean.svg'
-import TypeScript from '../public/icons/typeScript-icon.svg'
+import TypeScript from '../public/icons/typeScripticon.svg'
 import NextJs from '../public/icons/nextjs.svg'
 
 const Technologies = [

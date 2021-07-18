@@ -1,23 +1,16 @@
 import Head from 'next/head'
 
 
-import Link from 'next/link'
 import { Fragment } from 'react'
 import CodeEditor from '../components/CodeEditor'
 import AboutMe from '../components/AboutMe'
 import ProjectCard from '../components/ProjectCard'
-import Image from 'next/image'
+
 import GitHub from '../public/icons/github-original.svg'
 import LinkedIn from '../public/icons/linkedin-original.svg'
 import Contact from '../public/icons/mail.svg'
 import Resume from '../public/icons/user.svg'
-import JavaScript from '../public/icons/javascript.svg'
-import Python from '../public/icons/python.svg'
-import GoLang from '../public/icons/Go-Logo_Black.svg'
-import Reactsvg from '../public/icons/react.svg'
-import Nodejs from '../public/icons/nodejs.svg'
-import Docker from '../public/icons/docker.svg'
-import DigitalOcean from '../public/icons/digitalocean.svg'
+
 import {Project} from '../types'
 
 const Projects:Project[] = [
