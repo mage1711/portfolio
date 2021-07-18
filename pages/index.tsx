@@ -63,8 +63,8 @@ export default function Home() {
 </div>
 <footer className='bg-black  text-white p-6'>
 <address>
-  <p className='hover:opacity-50'>email: <a href="mailto:ziad.abdelrahman.ibrahim@gmail.com">ziad.abdelrahman.ibrahim@gmail.com</a></p>
-<p className='hover:opacity-50'><a href="https://github.com/mage1711/portfolio">source code for this page</a></p>
+  <p className='hover:opacity-50 mb-4'>email: <a href="mailto:ziad.abdelrahman.ibrahim@gmail.com">ziad.abdelrahman.ibrahim@gmail.com</a></p>
+<p className='hover:opacity-50 mb-1'><a href="https://github.com/mage1711/portfolio">source code for this page</a></p>
   </address>
 </footer>
 

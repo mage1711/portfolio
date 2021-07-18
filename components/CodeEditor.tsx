@@ -1,7 +1,7 @@
 
 
 export default function CodeEditor(){
-    return(  <div className=" hidden lg:flex flex-col text-left w-98 bg-gray-800 rounded-lg overflow-hidden shadow ">
+    return(  <div className=" hidden lg:flex flex-col text-left w-90 bg-gray-800 rounded-lg overflow-hidden shadow ">
     <div className="h-6 bg-gray-600 relative rounded ">
       <div className="p-2 flex flex-row space-x-1.5 ">
     <div className="rounded-full h-2 w-2 bg-red-400 "></div>
@@ -9,7 +9,7 @@ export default function CodeEditor(){
     <div className="rounded-full h-2 w-2 bg-green-400 "></div>
     </div>
     </div>
-    <div className="h-80 p-2 space-x-1 m-2 text-white "> 
+    <div className=" p-2 space-x-1 m-2 text-white "> 
     <div>
     <span className=' text variable'>const </span>
     <span className=' text-blue-300'>profile </span>
