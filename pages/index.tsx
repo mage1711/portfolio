@@ -10,7 +10,7 @@ import GitHub from '../public/icons/github-original.svg'
 import LinkedIn from '../public/icons/linkedin-original.svg'
 import Contact from '../public/icons/mail.svg'
 import Resume from '../public/icons/user.svg'
-
+import Blog from '../public/icons/blog.svg'
 import {Project} from '../types'
 
 const Projects:Project[] = [
@@ -26,13 +26,13 @@ export default function Home() {
   return (
     <Fragment>
 <Head> <title>Ziad Ibrahim </title> </Head>
-<div className='flex flex-col m-4 text-center  lg:m-10 lg:mx-96'>
+<div className='flex flex-col m-4 text-center lg:m-10 lg:mx-96'>
   <div className='flex flex-row space-x-20'>
   <div className='flex flex-col font-roboto' >
   <h3 className='pl-8 text-2xl font-bold text-left font-bebas'>HELLO I AM</h3>
   <h1 className='text-8xl font-bebas '>ZIAD IBRAHIM</h1>
   <p className='pt-4 text-lg font-medium'>A Software Engineer and Full-Stack Web Developer </p>
-  <div className="flex flex-col mt-6 space-y-4 text-center lg:space-y-0 lg:flex-row lg:space-x-16 lg:mt-20 ">
+  <div className="flex flex-col mt-6 space-y-4 text-center lg:space-y-0 lg:flex-row lg:space-x-12 lg:mt-20 ">
 
  <div className="hover:opacity-50">
     <a href='https://github.com/mage1711'><GitHub className="inline-block w-6 h-6 mb-1 mr-1"/> GitHub</a>
@@ -43,7 +43,9 @@ export default function Home() {
     <div className="hover:opacity-50">
     <a href='https://drive.google.com/file/d/1E_Dgqm3YEZQrjIGmCvcXjPpiTBEy1l0f/view?usp=sharing'><Resume className="inline-block w-6 h-6 mb-1 mr-1 "/> Resume</a>
     </div>
-
+    <div className="hover:opacity-50">
+    <a href='https://dev.to/mage1711'><Blog className="inline-block w-6 h-6 mb-1 mr-1"/> Blog</a>
+    </div>
     <div className="hover:opacity-50">
     <a href='mailto:ziad.abdelrahman.ibrahim@gmail.com'><Contact className="inline-block w-6 h-6 mb-1 mr-1"/> Contact</a>
     </div>
