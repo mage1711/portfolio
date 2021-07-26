@@ -14,7 +14,7 @@ import Blog from '../public/icons/blog.svg'
 import {Project} from '../types'
 
 const Projects:Project[] = [
-  { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,demo:'https://quirky-sinoussi-4ffbc4.netlify.app/' },
+  { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,demo:'https://video-generator-app.vercel.app/' },
   { title: 'Flashcards', description: 'A flashcards website that gives users the ability to create flashcards and share them with each other', media:'flashcards',technologies:['Django','PostgreSQL','Nginx','Docker'],source:'https://github.com/mage1711/flashCards-django' ,demo:'http://206.189.58.188:1337/flashcards/',documentation:'https://github.com/mage1711/flashCards-django/blob/master/README.md' },
   { title: 'Notus', description: 'A note and media sharing app for students to share tips and comment on each other\'s notes', media:'notus',technologies:['React','PostgreSQL','Nginx','Docker','Reducx','TypeScript','Nextjs'],source:'https://github.com/mage1711/Notus-server' ,demo:'https://notus-client.vercel.app/' },
   { title: 'SPE club site', description: 'A university club website developed for the SPE BUE club branch', media:'SPE',technologies:['Nodejs','React','Firebase'],demo:'https://spe-bue.web.app/' },
