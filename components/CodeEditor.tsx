@@ -20,7 +20,7 @@ export default function CodeEditor(){
     <span>,</span>
     </div>
     <div id="line2"><span className='text variable'>role :</span>
-    <span className='text json'> 'Backend Developer'</span>
+    <span className='text json'> 'Full-Stack Developer'</span>
     <span>,</span>
     </div>
  <div id="line3"><span className='text variable'>languages :</span>

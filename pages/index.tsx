@@ -14,18 +14,12 @@ import Blog from '../public/icons/blog.svg'
 import {Project} from '../types'
 
 const Projects:Project[] = [
-    { title: 'Coflow', description: 'Automate property repairs and maintenance', media:'coflow',technologies:['Typescript','Django','Docker','React','Superbase','AWS'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://www.joincoflow.com/' },
-    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-  { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
-  { title: 'Flashcards', description: 'A flashcards website that gives users the ability to create flashcards and share them with each other', media:'flashcards',technologies:['Django','PostgreSQL','Nginx','Docker'],source:'https://github.com/mage1711/flashCards-django' ,link:'http://206.189.58.188:1337/flashcards/',documentation:'https://github.com/mage1711/flashCards-django/blob/master/README.md' },
-  { title: 'Notus', description: 'A note and media sharing app for students to share tips and comment on each other\'s notes', media:'notus',technologies:['React','PostgreSQL','Nginx','Docker','Reducx','TypeScript','Nextjs'],source:'https://github.com/mage1711/Notus-server' ,link:'https://notus-client.vercel.app/' },
-  { title: 'SPE club site', description: 'A university club website developed for the SPE BUE club branch', media:'SPE',technologies:['Nodejs','React','Firebase'],link:'https://spe-bue.web.app/' },
-  { title: 'Chatapp', description: 'A real time chat app using socket and flask', media:'chatapp',technologies:['Flask','SQLlite','Nginx','Docker'],source:'https://github.com/mage1711/flask-chatapp' ,link:'http://143.198.126.177/' },
+    { title: 'Coflow', description: 'Automate property repairs and maintenance', media:'coflow',technologies:['Typescript','Django','Docker','React','Superbase','AWS'] ,link:'https://www.joincoflow.com/' },
+    { title: 'Hirebolt', description: 'Hire staff fast without wasting hours on admin work', media:'hirebolt',technologies:['Javascript','Nodejs','Docker','React'],link:'https://www.hirebolt.com/' },
+    { title: 'Popmenu', description: 'Maximum growth for restaurants.', media:'popmenu',technologies:['Javascript','Webpacker','Ruby','Docker'],link:'https://get.popmenu.com/' },
+    { title: 'Blinkist', description: 'Get the key ideas from the top books, podcasts, and experts in 15 minutes with the Blinkist app.', media:'blinkist',technologies:['Javascript','Webpacker','Ruby','Docker'],link:'https://www.blinkist.com/' },
+    { title: 'CDD Vault', description: 'Scientific Data Management', media:'cddvault',technologies:['Javascript','Webpacker','Ruby','Docker'],link:'https://www.collaborativedrug.com/' },
+    { title: 'Gluu 4', description: 'Gluu Solo enables you to choose millions or billions of requests per month, multiple cloud locations and the SLA to right-size your business identity requirements.', media:'gluu',technologies:['Javascript','VUE','Python','Flask'],link:'https://gluu.org/gluu-4/' },
 
 ]
 export default function Home() {
@@ -62,7 +56,7 @@ export default function Home() {
   </div>
 <AboutMe/>
  <div>
-  <div className="container mt-3 border-b-2 border-black border-opacity-40"><h1 className="mb-2 text-3xl text-center ">PROJECTS</h1>
+  <div className="container mt-3 border-b-2 border-black border-opacity-40"><h1 className="mb-2 text-3xl text-center ">PROJECTS I WORKED ON</h1>
  </div>
  <div className='grid grid-cols-1 gap-5 p-8 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3'>
  {Projects.map((project) => (
