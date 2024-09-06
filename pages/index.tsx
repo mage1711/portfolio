@@ -14,11 +14,18 @@ import Blog from '../public/icons/blog.svg'
 import {Project} from '../types'
 
 const Projects:Project[] = [
-  { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,demo:'https://video-generator-app.vercel.app/' },
-  { title: 'Flashcards', description: 'A flashcards website that gives users the ability to create flashcards and share them with each other', media:'flashcards',technologies:['Django','PostgreSQL','Nginx','Docker'],source:'https://github.com/mage1711/flashCards-django' ,demo:'http://206.189.58.188:1337/flashcards/',documentation:'https://github.com/mage1711/flashCards-django/blob/master/README.md' },
-  { title: 'Notus', description: 'A note and media sharing app for students to share tips and comment on each other\'s notes', media:'notus',technologies:['React','PostgreSQL','Nginx','Docker','Reducx','TypeScript','Nextjs'],source:'https://github.com/mage1711/Notus-server' ,demo:'https://notus-client.vercel.app/' },
-  { title: 'SPE club site', description: 'A university club website developed for the SPE BUE club branch', media:'SPE',technologies:['Nodejs','React','Firebase'],demo:'https://spe-bue.web.app/' },
-  { title: 'Chatapp', description: 'A real time chat app using socket and flask', media:'chatapp',technologies:['Flask','SQLlite','Nginx','Docker'],source:'https://github.com/mage1711/flask-chatapp' ,demo:'http://143.198.126.177/' },
+    { title: 'Coflow', description: 'Automate property repairs and maintenance', media:'coflow',technologies:['Typescript','Django','Docker','React','Superbase','AWS'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://www.joincoflow.com/' },
+    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+    { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+  { title: 'Top list creator', description: 'An app for automatic video generation using Goland and flask using metacritic lists', media:'video',technologies:['Golang','Flask','Docker','React','FFmpeg'],source:'https://github.com/mage1711/video-generator-app' ,link:'https://video-generator-app.vercel.app/' },
+  { title: 'Flashcards', description: 'A flashcards website that gives users the ability to create flashcards and share them with each other', media:'flashcards',technologies:['Django','PostgreSQL','Nginx','Docker'],source:'https://github.com/mage1711/flashCards-django' ,link:'http://206.189.58.188:1337/flashcards/',documentation:'https://github.com/mage1711/flashCards-django/blob/master/README.md' },
+  { title: 'Notus', description: 'A note and media sharing app for students to share tips and comment on each other\'s notes', media:'notus',technologies:['React','PostgreSQL','Nginx','Docker','Reducx','TypeScript','Nextjs'],source:'https://github.com/mage1711/Notus-server' ,link:'https://notus-client.vercel.app/' },
+  { title: 'SPE club site', description: 'A university club website developed for the SPE BUE club branch', media:'SPE',technologies:['Nodejs','React','Firebase'],link:'https://spe-bue.web.app/' },
+  { title: 'Chatapp', description: 'A real time chat app using socket and flask', media:'chatapp',technologies:['Flask','SQLlite','Nginx','Docker'],source:'https://github.com/mage1711/flask-chatapp' ,link:'http://143.198.126.177/' },
 
 ]
 export default function Home() {
@@ -41,7 +48,7 @@ export default function Home() {
     <a href='https://www.linkedin.com/in/ziad-ibrahim-12391279/'> <LinkedIn className="inline-block w-6 h-6 mb-1 mr-1 "/> LinkedIn</a>
     </div>
     <div className="hover:opacity-50">
-    <a href='https://drive.google.com/file/d/1E_Dgqm3YEZQrjIGmCvcXjPpiTBEy1l0f/view?usp=sharing'><Resume className="inline-block w-6 h-6 mb-1 mr-1 "/> Resume</a>
+    <a href='https://drive.google.com/file/d/1OkNSSEnlORDfzDFmD4DHfo3XpX6f-xcr/view'><Resume className="inline-block w-6 h-6 mb-1 mr-1 "/> Resume</a>
     </div>
     <div className="hover:opacity-50">
     <a href='https://dev.to/mage1711'><Blog className="inline-block w-6 h-6 mb-1 mr-1"/> Blog</a>

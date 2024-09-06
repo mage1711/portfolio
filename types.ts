@@ -4,6 +4,6 @@ export interface Project {
     media: string
     technologies: string[]
     source?:string
-    demo?:string
+    link?:string
     documentation?:string
   }

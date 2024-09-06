@@ -18,8 +18,8 @@ export default function ProjectCard({project}: ProjectCardProps ){
           {project.description}
         </p>
       </div>
-      {project.demo &&
-      <a href={project.demo}><span className="inline-block bg-green-600 rounded-full px-3 py-1 text-white  font-semibold  mr-1 mb-2 hover:bg-green-900 ">Demo</span> </a>
+      {project.link &&
+      <a href={project.link}><span className="inline-block bg-green-600 rounded-full px-3 py-1 text-white  font-semibold  mr-1 mb-2 hover:bg-green-900 ">Link</span> </a>
 }
 {project.source && <a href={project.source}><span className="inline-block bg-indigo-600 rounded-full px-3 py-1  font-semibold text-white mr-1 mb-2 hover:bg-indigo-900">Source</span> </a>
 }
